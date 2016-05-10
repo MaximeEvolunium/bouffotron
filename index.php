@@ -13,30 +13,14 @@
 <h1>Où est-ce qu’on bouffe à midi ?</h1>
 <?php
 $input = array(
-				"Subway", 
-				"Pita", 
-				"Lekker", 
-				"Kebab", 
-				"McDo", 
-				"Sushi Shop", 
-				"Jap", 
-				"Aris", 
-				"la boulange du métro", 
-				"la boulange Louise Michel", 
-				"la boulange Niel",
-				"la boulange secrète",
-				"la boulange en face de Sushi Shop",
-				"au Briard",
-				"Bagel secret",
-				"On a faim !",
-				"Trattoria", 
-				"Bibimbap",
-				"Le Lotus Bleu",
-				"Damas", 
-				"le chinois",
-				"La petite assiette",
-				"Pizzeria Torino",
-				"Terra Gourma"
+				"Kebab de l'université", 
+				"McDo",
+				"Quick",
+				"Best Bagel",
+				"Sushi Shop",
+				"PizzaHut",
+				"Dominos",
+				"Chinois"
 				);
 $rand_keys = array_rand($input, 2);?>
 <p>Ben on a qu’à aller chez <strong><?php echo $input[$rand_keys[0]];?></strong>,<br /> Ou au pire chez <strong><?php echo $input[$rand_keys[1]];?></strong>.</p>
