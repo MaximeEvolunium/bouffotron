@@ -22,7 +22,8 @@ $input = array(
 				"Dominos",
 				"Chinois",
 				"Foodies",
-				"Holly's Diner"
+				"Holly's Diner",
+				"MyWok"
 				);
 $rand_keys = array_rand($input, 2);?>
 <p>Ben on a qu’à aller chez <strong><?php echo $input[$rand_keys[0]];?></strong>,<br /> Ou au pire chez <strong><?php echo $input[$rand_keys[1]];?></strong>.</p>
